@@ -39,7 +39,20 @@
 			<artifactId>spring-boot-starter-validation</artifactId>
 			<version>2.6.7</version>
 		</dependency>
-	</dependencies>
+
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.13.2</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.jayway.restassured</groupId>
+			<artifactId>rest-assured</artifactId>
+			<version>2.9.0</version>
+			<scope>test</scope>
+		</dependency>
+    </dependencies>
 
 	<build>
 		<plugins>
